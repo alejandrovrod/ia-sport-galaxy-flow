@@ -1,0 +1,1374 @@
+{
+  "equipos": [
+    {
+      "id": 1,
+      "nombre": "FC Madrid",
+      "ciudad": "Madrid",
+      "fundacion": 1900,
+      "estadio": "Estadio Madrid",
+      "entrenador": "Entrenador García"
+    },
+    {
+      "id": 2,
+      "nombre": "Real Barcelona",
+      "ciudad": "Barcelona",
+      "fundacion": 1905,
+      "estadio": "Estadio Barcelona",
+      "entrenador": "Entrenador Rodríguez"
+    },
+    {
+      "id": 3,
+      "nombre": "Atlético Valencia",
+      "ciudad": "Valencia",
+      "fundacion": 1910,
+      "estadio": "Estadio Valencia",
+      "entrenador": "Entrenador Martínez"
+    },
+    {
+      "id": 4,
+      "nombre": "Deportivo Sevilla",
+      "ciudad": "Sevilla",
+      "fundacion": 1915,
+      "estadio": "Estadio Sevilla",
+      "entrenador": "Entrenador López"
+    },
+    {
+      "id": 5,
+      "nombre": "Sporting Bilbao",
+      "ciudad": "Bilbao",
+      "fundacion": 1920,
+      "estadio": "Estadio Bilbao",
+      "entrenador": "Entrenador González"
+    },
+    {
+      "id": 6,
+      "nombre": "Racing Zaragoza",
+      "ciudad": "Zaragoza",
+      "fundacion": 1925,
+      "estadio": "Estadio Zaragoza",
+      "entrenador": "Entrenador Sánchez"
+    },
+    {
+      "id": 7,
+      "nombre": "Unión Málaga",
+      "ciudad": "Málaga",
+      "fundacion": 1930,
+      "estadio": "Estadio Málaga",
+      "entrenador": "Entrenador Pérez"
+    },
+    {
+      "id": 8,
+      "nombre": "Club Murcia",
+      "ciudad": "Murcia",
+      "fundacion": 1935,
+      "estadio": "Estadio Murcia",
+      "entrenador": "Entrenador Fernández"
+    }
+  ],
+  "jugadores": [
+    {
+      "id": 1,
+      "nombre": "Carlos García",
+      "fecha_nacimiento": "1990-01-01",
+      "posicion": "portero",
+      "numero_camiseta": 1,
+      "equipo_id": 1,
+      "nacionalidad": "España"
+    },
+    {
+      "id": 2,
+      "nombre": "David Rodríguez",
+      "fecha_nacimiento": "1991-02-02",
+      "posicion": "defensa",
+      "numero_camiseta": 2,
+      "equipo_id": 1,
+      "nacionalidad": "Argentina"
+    },
+    {
+      "id": 3,
+      "nombre": "Juan Martínez",
+      "fecha_nacimiento": "1992-03-03",
+      "posicion": "centrocampista",
+      "numero_camiseta": 3,
+      "equipo_id": 1,
+      "nacionalidad": "Brasil"
+    },
+    {
+      "id": 4,
+      "nombre": "Pedro López",
+      "fecha_nacimiento": "1993-04-04",
+      "posicion": "delantero",
+      "numero_camiseta": 4,
+      "equipo_id": 1,
+      "nacionalidad": "México"
+    },
+    {
+      "id": 5,
+      "nombre": "Luis González",
+      "fecha_nacimiento": "1994-05-05",
+      "posicion": "portero",
+      "numero_camiseta": 5,
+      "equipo_id": 1,
+      "nacionalidad": "Colombia"
+    },
+    {
+      "id": 6,
+      "nombre": "Miguel Sánchez",
+      "fecha_nacimiento": "1995-06-06",
+      "posicion": "defensa",
+      "numero_camiseta": 6,
+      "equipo_id": 1,
+      "nacionalidad": "Chile"
+    },
+    {
+      "id": 7,
+      "nombre": "Antonio Pérez",
+      "fecha_nacimiento": "1996-07-07",
+      "posicion": "centrocampista",
+      "numero_camiseta": 7,
+      "equipo_id": 1,
+      "nacionalidad": "Uruguay"
+    },
+    {
+      "id": 8,
+      "nombre": "José Fernández",
+      "fecha_nacimiento": "1997-08-08",
+      "posicion": "delantero",
+      "numero_camiseta": 8,
+      "equipo_id": 1,
+      "nacionalidad": "Portugal"
+    },
+    {
+      "id": 9,
+      "nombre": "Carlos García",
+      "fecha_nacimiento": "1998-09-09",
+      "posicion": "portero",
+      "numero_camiseta": 9,
+      "equipo_id": 1,
+      "nacionalidad": "España"
+    },
+    {
+      "id": 10,
+      "nombre": "David Rodríguez",
+      "fecha_nacimiento": "1999-10-10",
+      "posicion": "defensa",
+      "numero_camiseta": 10,
+      "equipo_id": 1,
+      "nacionalidad": "Argentina"
+    },
+    {
+      "id": 11,
+      "nombre": "Juan Martínez",
+      "fecha_nacimiento": "1990-11-11",
+      "posicion": "centrocampista",
+      "numero_camiseta": 11,
+      "equipo_id": 1,
+      "nacionalidad": "Brasil"
+    },
+    {
+      "id": 12,
+      "nombre": "Carlos Rodríguez",
+      "fecha_nacimiento": "1990-01-01",
+      "posicion": "portero",
+      "numero_camiseta": 1,
+      "equipo_id": 2,
+      "nacionalidad": "Argentina"
+    },
+    {
+      "id": 13,
+      "nombre": "David Martínez",
+      "fecha_nacimiento": "1991-02-02",
+      "posicion": "defensa",
+      "numero_camiseta": 2,
+      "equipo_id": 2,
+      "nacionalidad": "Brasil"
+    },
+    {
+      "id": 14,
+      "nombre": "Juan López",
+      "fecha_nacimiento": "1992-03-03",
+      "posicion": "centrocampista",
+      "numero_camiseta": 3,
+      "equipo_id": 2,
+      "nacionalidad": "México"
+    },
+    {
+      "id": 15,
+      "nombre": "Pedro González",
+      "fecha_nacimiento": "1993-04-04",
+      "posicion": "delantero",
+      "numero_camiseta": 4,
+      "equipo_id": 2,
+      "nacionalidad": "Colombia"
+    },
+    {
+      "id": 16,
+      "nombre": "Luis Sánchez",
+      "fecha_nacimiento": "1994-05-05",
+      "posicion": "portero",
+      "numero_camiseta": 5,
+      "equipo_id": 2,
+      "nacionalidad": "Chile"
+    },
+    {
+      "id": 17,
+      "nombre": "Miguel Pérez",
+      "fecha_nacimiento": "1995-06-06",
+      "posicion": "defensa",
+      "numero_camiseta": 6,
+      "equipo_id": 2,
+      "nacionalidad": "Uruguay"
+    },
+    {
+      "id": 18,
+      "nombre": "Antonio Fernández",
+      "fecha_nacimiento": "1996-07-07",
+      "posicion": "centrocampista",
+      "numero_camiseta": 7,
+      "equipo_id": 2,
+      "nacionalidad": "Portugal"
+    },
+    {
+      "id": 19,
+      "nombre": "José García",
+      "fecha_nacimiento": "1997-08-08",
+      "posicion": "delantero",
+      "numero_camiseta": 8,
+      "equipo_id": 2,
+      "nacionalidad": "España"
+    },
+    {
+      "id": 20,
+      "nombre": "Carlos Rodríguez",
+      "fecha_nacimiento": "1998-09-09",
+      "posicion": "portero",
+      "numero_camiseta": 9,
+      "equipo_id": 2,
+      "nacionalidad": "Argentina"
+    },
+    {
+      "id": 21,
+      "nombre": "David Martínez",
+      "fecha_nacimiento": "1999-10-10",
+      "posicion": "defensa",
+      "numero_camiseta": 10,
+      "equipo_id": 2,
+      "nacionalidad": "Brasil"
+    },
+    {
+      "id": 22,
+      "nombre": "Juan López",
+      "fecha_nacimiento": "1990-11-11",
+      "posicion": "centrocampista",
+      "numero_camiseta": 11,
+      "equipo_id": 2,
+      "nacionalidad": "México"
+    },
+    {
+      "id": 23,
+      "nombre": "Carlos Martínez",
+      "fecha_nacimiento": "1990-01-01",
+      "posicion": "portero",
+      "numero_camiseta": 1,
+      "equipo_id": 3,
+      "nacionalidad": "Brasil"
+    },
+    {
+      "id": 24,
+      "nombre": "David López",
+      "fecha_nacimiento": "1991-02-02",
+      "posicion": "defensa",
+      "numero_camiseta": 2,
+      "equipo_id": 3,
+      "nacionalidad": "México"
+    },
+    {
+      "id": 25,
+      "nombre": "Juan González",
+      "fecha_nacimiento": "1992-03-03",
+      "posicion": "centrocampista",
+      "numero_camiseta": 3,
+      "equipo_id": 3,
+      "nacionalidad": "Colombia"
+    },
+    {
+      "id": 26,
+      "nombre": "Pedro Sánchez",
+      "fecha_nacimiento": "1993-04-04",
+      "posicion": "delantero",
+      "numero_camiseta": 4,
+      "equipo_id": 3,
+      "nacionalidad": "Chile"
+    },
+    {
+      "id": 27,
+      "nombre": "Luis Pérez",
+      "fecha_nacimiento": "1994-05-05",
+      "posicion": "portero",
+      "numero_camiseta": 5,
+      "equipo_id": 3,
+      "nacionalidad": "Uruguay"
+    },
+    {
+      "id": 28,
+      "nombre": "Miguel Fernández",
+      "fecha_nacimiento": "1995-06-06",
+      "posicion": "defensa",
+      "numero_camiseta": 6,
+      "equipo_id": 3,
+      "nacionalidad": "Portugal"
+    },
+    {
+      "id": 29,
+      "nombre": "Antonio García",
+      "fecha_nacimiento": "1996-07-07",
+      "posicion": "centrocampista",
+      "numero_camiseta": 7,
+      "equipo_id": 3,
+      "nacionalidad": "España"
+    },
+    {
+      "id": 30,
+      "nombre": "José Rodríguez",
+      "fecha_nacimiento": "1997-08-08",
+      "posicion": "delantero",
+      "numero_camiseta": 8,
+      "equipo_id": 3,
+      "nacionalidad": "Argentina"
+    },
+    {
+      "id": 31,
+      "nombre": "Carlos Martínez",
+      "fecha_nacimiento": "1998-09-09",
+      "posicion": "portero",
+      "numero_camiseta": 9,
+      "equipo_id": 3,
+      "nacionalidad": "Brasil"
+    },
+    {
+      "id": 32,
+      "nombre": "David López",
+      "fecha_nacimiento": "1999-10-10",
+      "posicion": "defensa",
+      "numero_camiseta": 10,
+      "equipo_id": 3,
+      "nacionalidad": "México"
+    },
+    {
+      "id": 33,
+      "nombre": "Juan González",
+      "fecha_nacimiento": "1990-11-11",
+      "posicion": "centrocampista",
+      "numero_camiseta": 11,
+      "equipo_id": 3,
+      "nacionalidad": "Colombia"
+    },
+    {
+      "id": 34,
+      "nombre": "Carlos López",
+      "fecha_nacimiento": "1990-01-01",
+      "posicion": "portero",
+      "numero_camiseta": 1,
+      "equipo_id": 4,
+      "nacionalidad": "México"
+    },
+    {
+      "id": 35,
+      "nombre": "David González",
+      "fecha_nacimiento": "1991-02-02",
+      "posicion": "defensa",
+      "numero_camiseta": 2,
+      "equipo_id": 4,
+      "nacionalidad": "Colombia"
+    },
+    {
+      "id": 36,
+      "nombre": "Juan Sánchez",
+      "fecha_nacimiento": "1992-03-03",
+      "posicion": "centrocampista",
+      "numero_camiseta": 3,
+      "equipo_id": 4,
+      "nacionalidad": "Chile"
+    },
+    {
+      "id": 37,
+      "nombre": "Pedro Pérez",
+      "fecha_nacimiento": "1993-04-04",
+      "posicion": "delantero",
+      "numero_camiseta": 4,
+      "equipo_id": 4,
+      "nacionalidad": "Uruguay"
+    },
+    {
+      "id": 38,
+      "nombre": "Luis Fernández",
+      "fecha_nacimiento": "1994-05-05",
+      "posicion": "portero",
+      "numero_camiseta": 5,
+      "equipo_id": 4,
+      "nacionalidad": "Portugal"
+    },
+    {
+      "id": 39,
+      "nombre": "Miguel García",
+      "fecha_nacimiento": "1995-06-06",
+      "posicion": "defensa",
+      "numero_camiseta": 6,
+      "equipo_id": 4,
+      "nacionalidad": "España"
+    },
+    {
+      "id": 40,
+      "nombre": "Antonio Rodríguez",
+      "fecha_nacimiento": "1996-07-07",
+      "posicion": "centrocampista",
+      "numero_camiseta": 7,
+      "equipo_id": 4,
+      "nacionalidad": "Argentina"
+    },
+    {
+      "id": 41,
+      "nombre": "José Martínez",
+      "fecha_nacimiento": "1997-08-08",
+      "posicion": "delantero",
+      "numero_camiseta": 8,
+      "equipo_id": 4,
+      "nacionalidad": "Brasil"
+    },
+    {
+      "id": 42,
+      "nombre": "Carlos López",
+      "fecha_nacimiento": "1998-09-09",
+      "posicion": "portero",
+      "numero_camiseta": 9,
+      "equipo_id": 4,
+      "nacionalidad": "México"
+    },
+    {
+      "id": 43,
+      "nombre": "David González",
+      "fecha_nacimiento": "1999-10-10",
+      "posicion": "defensa",
+      "numero_camiseta": 10,
+      "equipo_id": 4,
+      "nacionalidad": "Colombia"
+    },
+    {
+      "id": 44,
+      "nombre": "Juan Sánchez",
+      "fecha_nacimiento": "1990-11-11",
+      "posicion": "centrocampista",
+      "numero_camiseta": 11,
+      "equipo_id": 4,
+      "nacionalidad": "Chile"
+    },
+    {
+      "id": 45,
+      "nombre": "Carlos González",
+      "fecha_nacimiento": "1990-01-01",
+      "posicion": "portero",
+      "numero_camiseta": 1,
+      "equipo_id": 5,
+      "nacionalidad": "Colombia"
+    },
+    {
+      "id": 46,
+      "nombre": "David Sánchez",
+      "fecha_nacimiento": "1991-02-02",
+      "posicion": "defensa",
+      "numero_camiseta": 2,
+      "equipo_id": 5,
+      "nacionalidad": "Chile"
+    },
+    {
+      "id": 47,
+      "nombre": "Juan Pérez",
+      "fecha_nacimiento": "1992-03-03",
+      "posicion": "centrocampista",
+      "numero_camiseta": 3,
+      "equipo_id": 5,
+      "nacionalidad": "Uruguay"
+    },
+    {
+      "id": 48,
+      "nombre": "Pedro Fernández",
+      "fecha_nacimiento": "1993-04-04",
+      "posicion": "delantero",
+      "numero_camiseta": 4,
+      "equipo_id": 5,
+      "nacionalidad": "Portugal"
+    },
+    {
+      "id": 49,
+      "nombre": "Luis García",
+      "fecha_nacimiento": "1994-05-05",
+      "posicion": "portero",
+      "numero_camiseta": 5,
+      "equipo_id": 5,
+      "nacionalidad": "España"
+    },
+    {
+      "id": 50,
+      "nombre": "Miguel Rodríguez",
+      "fecha_nacimiento": "1995-06-06",
+      "posicion": "defensa",
+      "numero_camiseta": 6,
+      "equipo_id": 5,
+      "nacionalidad": "Argentina"
+    },
+    {
+      "id": 51,
+      "nombre": "Antonio Martínez",
+      "fecha_nacimiento": "1996-07-07",
+      "posicion": "centrocampista",
+      "numero_camiseta": 7,
+      "equipo_id": 5,
+      "nacionalidad": "Brasil"
+    },
+    {
+      "id": 52,
+      "nombre": "José López",
+      "fecha_nacimiento": "1997-08-08",
+      "posicion": "delantero",
+      "numero_camiseta": 8,
+      "equipo_id": 5,
+      "nacionalidad": "México"
+    },
+    {
+      "id": 53,
+      "nombre": "Carlos González",
+      "fecha_nacimiento": "1998-09-09",
+      "posicion": "portero",
+      "numero_camiseta": 9,
+      "equipo_id": 5,
+      "nacionalidad": "Colombia"
+    },
+    {
+      "id": 54,
+      "nombre": "David Sánchez",
+      "fecha_nacimiento": "1999-10-10",
+      "posicion": "defensa",
+      "numero_camiseta": 10,
+      "equipo_id": 5,
+      "nacionalidad": "Chile"
+    },
+    {
+      "id": 55,
+      "nombre": "Juan Pérez",
+      "fecha_nacimiento": "1990-11-11",
+      "posicion": "centrocampista",
+      "numero_camiseta": 11,
+      "equipo_id": 5,
+      "nacionalidad": "Uruguay"
+    },
+    {
+      "id": 56,
+      "nombre": "Carlos Sánchez",
+      "fecha_nacimiento": "1990-01-01",
+      "posicion": "portero",
+      "numero_camiseta": 1,
+      "equipo_id": 6,
+      "nacionalidad": "Chile"
+    },
+    {
+      "id": 57,
+      "nombre": "David Pérez",
+      "fecha_nacimiento": "1991-02-02",
+      "posicion": "defensa",
+      "numero_camiseta": 2,
+      "equipo_id": 6,
+      "nacionalidad": "Uruguay"
+    },
+    {
+      "id": 58,
+      "nombre": "Juan Fernández",
+      "fecha_nacimiento": "1992-03-03",
+      "posicion": "centrocampista",
+      "numero_camiseta": 3,
+      "equipo_id": 6,
+      "nacionalidad": "Portugal"
+    },
+    {
+      "id": 59,
+      "nombre": "Pedro García",
+      "fecha_nacimiento": "1993-04-04",
+      "posicion": "delantero",
+      "numero_camiseta": 4,
+      "equipo_id": 6,
+      "nacionalidad": "España"
+    },
+    {
+      "id": 60,
+      "nombre": "Luis Rodríguez",
+      "fecha_nacimiento": "1994-05-05",
+      "posicion": "portero",
+      "numero_camiseta": 5,
+      "equipo_id": 6,
+      "nacionalidad": "Argentina"
+    },
+    {
+      "id": 61,
+      "nombre": "Miguel Martínez",
+      "fecha_nacimiento": "1995-06-06",
+      "posicion": "defensa",
+      "numero_camiseta": 6,
+      "equipo_id": 6,
+      "nacionalidad": "Brasil"
+    },
+    {
+      "id": 62,
+      "nombre": "Antonio López",
+      "fecha_nacimiento": "1996-07-07",
+      "posicion": "centrocampista",
+      "numero_camiseta": 7,
+      "equipo_id": 6,
+      "nacionalidad": "México"
+    },
+    {
+      "id": 63,
+      "nombre": "José González",
+      "fecha_nacimiento": "1997-08-08",
+      "posicion": "delantero",
+      "numero_camiseta": 8,
+      "equipo_id": 6,
+      "nacionalidad": "Colombia"
+    },
+    {
+      "id": 64,
+      "nombre": "Carlos Sánchez",
+      "fecha_nacimiento": "1998-09-09",
+      "posicion": "portero",
+      "numero_camiseta": 9,
+      "equipo_id": 6,
+      "nacionalidad": "Chile"
+    },
+    {
+      "id": 65,
+      "nombre": "David Pérez",
+      "fecha_nacimiento": "1999-10-10",
+      "posicion": "defensa",
+      "numero_camiseta": 10,
+      "equipo_id": 6,
+      "nacionalidad": "Uruguay"
+    },
+    {
+      "id": 66,
+      "nombre": "Juan Fernández",
+      "fecha_nacimiento": "1990-11-11",
+      "posicion": "centrocampista",
+      "numero_camiseta": 11,
+      "equipo_id": 6,
+      "nacionalidad": "Portugal"
+    },
+    {
+      "id": 67,
+      "nombre": "Carlos Pérez",
+      "fecha_nacimiento": "1990-01-01",
+      "posicion": "portero",
+      "numero_camiseta": 1,
+      "equipo_id": 7,
+      "nacionalidad": "Uruguay"
+    },
+    {
+      "id": 68,
+      "nombre": "David Fernández",
+      "fecha_nacimiento": "1991-02-02",
+      "posicion": "defensa",
+      "numero_camiseta": 2,
+      "equipo_id": 7,
+      "nacionalidad": "Portugal"
+    },
+    {
+      "id": 69,
+      "nombre": "Juan García",
+      "fecha_nacimiento": "1992-03-03",
+      "posicion": "centrocampista",
+      "numero_camiseta": 3,
+      "equipo_id": 7,
+      "nacionalidad": "España"
+    },
+    {
+      "id": 70,
+      "nombre": "Pedro Rodríguez",
+      "fecha_nacimiento": "1993-04-04",
+      "posicion": "delantero",
+      "numero_camiseta": 4,
+      "equipo_id": 7,
+      "nacionalidad": "Argentina"
+    },
+    {
+      "id": 71,
+      "nombre": "Luis Martínez",
+      "fecha_nacimiento": "1994-05-05",
+      "posicion": "portero",
+      "numero_camiseta": 5,
+      "equipo_id": 7,
+      "nacionalidad": "Brasil"
+    },
+    {
+      "id": 72,
+      "nombre": "Miguel López",
+      "fecha_nacimiento": "1995-06-06",
+      "posicion": "defensa",
+      "numero_camiseta": 6,
+      "equipo_id": 7,
+      "nacionalidad": "México"
+    },
+    {
+      "id": 73,
+      "nombre": "Antonio González",
+      "fecha_nacimiento": "1996-07-07",
+      "posicion": "centrocampista",
+      "numero_camiseta": 7,
+      "equipo_id": 7,
+      "nacionalidad": "Colombia"
+    },
+    {
+      "id": 74,
+      "nombre": "José Sánchez",
+      "fecha_nacimiento": "1997-08-08",
+      "posicion": "delantero",
+      "numero_camiseta": 8,
+      "equipo_id": 7,
+      "nacionalidad": "Chile"
+    },
+    {
+      "id": 75,
+      "nombre": "Carlos Pérez",
+      "fecha_nacimiento": "1998-09-09",
+      "posicion": "portero",
+      "numero_camiseta": 9,
+      "equipo_id": 7,
+      "nacionalidad": "Uruguay"
+    },
+    {
+      "id": 76,
+      "nombre": "David Fernández",
+      "fecha_nacimiento": "1999-10-10",
+      "posicion": "defensa",
+      "numero_camiseta": 10,
+      "equipo_id": 7,
+      "nacionalidad": "Portugal"
+    },
+    {
+      "id": 77,
+      "nombre": "Juan García",
+      "fecha_nacimiento": "1990-11-11",
+      "posicion": "centrocampista",
+      "numero_camiseta": 11,
+      "equipo_id": 7,
+      "nacionalidad": "España"
+    },
+    {
+      "id": 78,
+      "nombre": "Carlos Fernández",
+      "fecha_nacimiento": "1990-01-01",
+      "posicion": "portero",
+      "numero_camiseta": 1,
+      "equipo_id": 8,
+      "nacionalidad": "Portugal"
+    },
+    {
+      "id": 79,
+      "nombre": "David García",
+      "fecha_nacimiento": "1991-02-02",
+      "posicion": "defensa",
+      "numero_camiseta": 2,
+      "equipo_id": 8,
+      "nacionalidad": "España"
+    },
+    {
+      "id": 80,
+      "nombre": "Juan Rodríguez",
+      "fecha_nacimiento": "1992-03-03",
+      "posicion": "centrocampista",
+      "numero_camiseta": 3,
+      "equipo_id": 8,
+      "nacionalidad": "Argentina"
+    },
+    {
+      "id": 81,
+      "nombre": "Pedro Martínez",
+      "fecha_nacimiento": "1993-04-04",
+      "posicion": "delantero",
+      "numero_camiseta": 4,
+      "equipo_id": 8,
+      "nacionalidad": "Brasil"
+    },
+    {
+      "id": 82,
+      "nombre": "Luis López",
+      "fecha_nacimiento": "1994-05-05",
+      "posicion": "portero",
+      "numero_camiseta": 5,
+      "equipo_id": 8,
+      "nacionalidad": "México"
+    },
+    {
+      "id": 83,
+      "nombre": "Miguel González",
+      "fecha_nacimiento": "1995-06-06",
+      "posicion": "defensa",
+      "numero_camiseta": 6,
+      "equipo_id": 8,
+      "nacionalidad": "Colombia"
+    },
+    {
+      "id": 84,
+      "nombre": "Antonio Sánchez",
+      "fecha_nacimiento": "1996-07-07",
+      "posicion": "centrocampista",
+      "numero_camiseta": 7,
+      "equipo_id": 8,
+      "nacionalidad": "Chile"
+    },
+    {
+      "id": 85,
+      "nombre": "José Pérez",
+      "fecha_nacimiento": "1997-08-08",
+      "posicion": "delantero",
+      "numero_camiseta": 8,
+      "equipo_id": 8,
+      "nacionalidad": "Uruguay"
+    },
+    {
+      "id": 86,
+      "nombre": "Carlos Fernández",
+      "fecha_nacimiento": "1998-09-09",
+      "posicion": "portero",
+      "numero_camiseta": 9,
+      "equipo_id": 8,
+      "nacionalidad": "Portugal"
+    },
+    {
+      "id": 87,
+      "nombre": "David García",
+      "fecha_nacimiento": "1999-10-10",
+      "posicion": "defensa",
+      "numero_camiseta": 10,
+      "equipo_id": 8,
+      "nacionalidad": "España"
+    },
+    {
+      "id": 88,
+      "nombre": "Juan Rodríguez",
+      "fecha_nacimiento": "1990-11-11",
+      "posicion": "centrocampista",
+      "numero_camiseta": 11,
+      "equipo_id": 8,
+      "nacionalidad": "Argentina"
+    }
+  ],
+  "partidos": [
+    {
+      "id": 1,
+      "equipo_local_id": 1,
+      "equipo_visitante_id": 8,
+      "fecha": "2026-04-21 19:05",
+      "estadio": "Estadio Madrid",
+      "jornada": 1,
+      "estado": "programado"
+    },
+    {
+      "id": 2,
+      "equipo_local_id": 2,
+      "equipo_visitante_id": 7,
+      "fecha": "2026-04-21 20:05",
+      "estadio": "Estadio Barcelona",
+      "jornada": 1,
+      "estado": "programado"
+    },
+    {
+      "id": 3,
+      "equipo_local_id": 3,
+      "equipo_visitante_id": 6,
+      "fecha": "2026-04-21 21:05",
+      "estadio": "Estadio Valencia",
+      "jornada": 1,
+      "estado": "programado"
+    },
+    {
+      "id": 4,
+      "equipo_local_id": 4,
+      "equipo_visitante_id": 5,
+      "fecha": "2026-04-21 22:05",
+      "estadio": "Estadio Sevilla",
+      "jornada": 1,
+      "estado": "programado"
+    },
+    {
+      "id": 5,
+      "equipo_local_id": 1,
+      "equipo_visitante_id": 7,
+      "fecha": "2026-04-28 21:05",
+      "estadio": "Estadio Madrid",
+      "jornada": 2,
+      "estado": "programado"
+    },
+    {
+      "id": 6,
+      "equipo_local_id": 8,
+      "equipo_visitante_id": 6,
+      "fecha": "2026-04-28 22:05",
+      "estadio": "Estadio Murcia",
+      "jornada": 2,
+      "estado": "programado"
+    },
+    {
+      "id": 7,
+      "equipo_local_id": 2,
+      "equipo_visitante_id": 5,
+      "fecha": "2026-04-28 23:05",
+      "estadio": "Estadio Barcelona",
+      "jornada": 2,
+      "estado": "programado"
+    },
+    {
+      "id": 8,
+      "equipo_local_id": 3,
+      "equipo_visitante_id": 4,
+      "fecha": "2026-04-29 00:05",
+      "estadio": "Estadio Valencia",
+      "jornada": 2,
+      "estado": "programado"
+    },
+    {
+      "id": 9,
+      "equipo_local_id": 1,
+      "equipo_visitante_id": 6,
+      "fecha": "2026-05-05 23:05",
+      "estadio": "Estadio Madrid",
+      "jornada": 3,
+      "estado": "programado"
+    },
+    {
+      "id": 10,
+      "equipo_local_id": 7,
+      "equipo_visitante_id": 5,
+      "fecha": "2026-05-06 00:05",
+      "estadio": "Estadio Málaga",
+      "jornada": 3,
+      "estado": "programado"
+    },
+    {
+      "id": 11,
+      "equipo_local_id": 8,
+      "equipo_visitante_id": 4,
+      "fecha": "2026-05-06 01:05",
+      "estadio": "Estadio Murcia",
+      "jornada": 3,
+      "estado": "programado"
+    },
+    {
+      "id": 12,
+      "equipo_local_id": 2,
+      "equipo_visitante_id": 3,
+      "fecha": "2026-05-06 02:05",
+      "estadio": "Estadio Barcelona",
+      "jornada": 3,
+      "estado": "programado"
+    },
+    {
+      "id": 13,
+      "equipo_local_id": 1,
+      "equipo_visitante_id": 5,
+      "fecha": "2026-05-13 01:05",
+      "estadio": "Estadio Madrid",
+      "jornada": 4,
+      "estado": "programado"
+    },
+    {
+      "id": 14,
+      "equipo_local_id": 6,
+      "equipo_visitante_id": 4,
+      "fecha": "2026-05-13 02:05",
+      "estadio": "Estadio Zaragoza",
+      "jornada": 4,
+      "estado": "programado"
+    },
+    {
+      "id": 15,
+      "equipo_local_id": 7,
+      "equipo_visitante_id": 3,
+      "fecha": "2026-05-13 03:05",
+      "estadio": "Estadio Málaga",
+      "jornada": 4,
+      "estado": "programado"
+    },
+    {
+      "id": 16,
+      "equipo_local_id": 8,
+      "equipo_visitante_id": 2,
+      "fecha": "2026-05-13 04:05",
+      "estadio": "Estadio Murcia",
+      "jornada": 4,
+      "estado": "programado"
+    },
+    {
+      "id": 17,
+      "equipo_local_id": 1,
+      "equipo_visitante_id": 4,
+      "fecha": "2026-05-20 03:05",
+      "estadio": "Estadio Madrid",
+      "jornada": 5,
+      "estado": "programado"
+    },
+    {
+      "id": 18,
+      "equipo_local_id": 5,
+      "equipo_visitante_id": 3,
+      "fecha": "2026-05-20 04:05",
+      "estadio": "Estadio Bilbao",
+      "jornada": 5,
+      "estado": "programado"
+    },
+    {
+      "id": 19,
+      "equipo_local_id": 6,
+      "equipo_visitante_id": 2,
+      "fecha": "2026-05-20 05:05",
+      "estadio": "Estadio Zaragoza",
+      "jornada": 5,
+      "estado": "programado"
+    },
+    {
+      "id": 20,
+      "equipo_local_id": 7,
+      "equipo_visitante_id": 8,
+      "fecha": "2026-05-20 06:05",
+      "estadio": "Estadio Málaga",
+      "jornada": 5,
+      "estado": "programado"
+    },
+    {
+      "id": 21,
+      "equipo_local_id": 1,
+      "equipo_visitante_id": 3,
+      "fecha": "2026-05-27 05:05",
+      "estadio": "Estadio Madrid",
+      "jornada": 6,
+      "estado": "programado"
+    },
+    {
+      "id": 22,
+      "equipo_local_id": 4,
+      "equipo_visitante_id": 2,
+      "fecha": "2026-05-27 06:05",
+      "estadio": "Estadio Sevilla",
+      "jornada": 6,
+      "estado": "programado"
+    },
+    {
+      "id": 23,
+      "equipo_local_id": 5,
+      "equipo_visitante_id": 8,
+      "fecha": "2026-05-27 07:05",
+      "estadio": "Estadio Bilbao",
+      "jornada": 6,
+      "estado": "programado"
+    },
+    {
+      "id": 24,
+      "equipo_local_id": 6,
+      "equipo_visitante_id": 7,
+      "fecha": "2026-05-27 08:05",
+      "estadio": "Estadio Zaragoza",
+      "jornada": 6,
+      "estado": "programado"
+    },
+    {
+      "id": 25,
+      "equipo_local_id": 1,
+      "equipo_visitante_id": 2,
+      "fecha": "2026-06-03 07:05",
+      "estadio": "Estadio Madrid",
+      "jornada": 7,
+      "estado": "programado"
+    },
+    {
+      "id": 26,
+      "equipo_local_id": 3,
+      "equipo_visitante_id": 8,
+      "fecha": "2026-06-03 08:05",
+      "estadio": "Estadio Valencia",
+      "jornada": 7,
+      "estado": "programado"
+    },
+    {
+      "id": 27,
+      "equipo_local_id": 4,
+      "equipo_visitante_id": 7,
+      "fecha": "2026-06-03 09:05",
+      "estadio": "Estadio Sevilla",
+      "jornada": 7,
+      "estado": "programado"
+    },
+    {
+      "id": 28,
+      "equipo_local_id": 5,
+      "equipo_visitante_id": 6,
+      "fecha": "2026-06-03 10:05",
+      "estadio": "Estadio Bilbao",
+      "jornada": 7,
+      "estado": "programado"
+    },
+    {
+      "id": 29,
+      "equipo_local_id": 8,
+      "equipo_visitante_id": 1,
+      "fecha": "2026-06-10 09:05",
+      "estadio": "Estadio Murcia",
+      "jornada": 1,
+      "estado": "programado"
+    },
+    {
+      "id": 30,
+      "equipo_local_id": 7,
+      "equipo_visitante_id": 2,
+      "fecha": "2026-06-10 10:05",
+      "estadio": "Estadio Málaga",
+      "jornada": 1,
+      "estado": "programado"
+    },
+    {
+      "id": 31,
+      "equipo_local_id": 6,
+      "equipo_visitante_id": 3,
+      "fecha": "2026-06-10 11:05",
+      "estadio": "Estadio Zaragoza",
+      "jornada": 1,
+      "estado": "programado"
+    },
+    {
+      "id": 32,
+      "equipo_local_id": 5,
+      "equipo_visitante_id": 4,
+      "fecha": "2026-06-10 12:05",
+      "estadio": "Estadio Bilbao",
+      "jornada": 1,
+      "estado": "programado"
+    },
+    {
+      "id": 33,
+      "equipo_local_id": 7,
+      "equipo_visitante_id": 1,
+      "fecha": "2026-06-17 11:05",
+      "estadio": "Estadio Málaga",
+      "jornada": 2,
+      "estado": "programado"
+    },
+    {
+      "id": 34,
+      "equipo_local_id": 6,
+      "equipo_visitante_id": 8,
+      "fecha": "2026-06-17 12:05",
+      "estadio": "Estadio Zaragoza",
+      "jornada": 2,
+      "estado": "programado"
+    },
+    {
+      "id": 35,
+      "equipo_local_id": 5,
+      "equipo_visitante_id": 2,
+      "fecha": "2026-06-17 13:05",
+      "estadio": "Estadio Bilbao",
+      "jornada": 2,
+      "estado": "programado"
+    },
+    {
+      "id": 36,
+      "equipo_local_id": 4,
+      "equipo_visitante_id": 3,
+      "fecha": "2026-06-17 14:05",
+      "estadio": "Estadio Sevilla",
+      "jornada": 2,
+      "estado": "programado"
+    },
+    {
+      "id": 37,
+      "equipo_local_id": 6,
+      "equipo_visitante_id": 1,
+      "fecha": "2026-06-24 13:05",
+      "estadio": "Estadio Zaragoza",
+      "jornada": 3,
+      "estado": "programado"
+    },
+    {
+      "id": 38,
+      "equipo_local_id": 5,
+      "equipo_visitante_id": 7,
+      "fecha": "2026-06-24 14:05",
+      "estadio": "Estadio Bilbao",
+      "jornada": 3,
+      "estado": "programado"
+    },
+    {
+      "id": 39,
+      "equipo_local_id": 4,
+      "equipo_visitante_id": 8,
+      "fecha": "2026-06-24 15:05",
+      "estadio": "Estadio Sevilla",
+      "jornada": 3,
+      "estado": "programado"
+    },
+    {
+      "id": 40,
+      "equipo_local_id": 3,
+      "equipo_visitante_id": 2,
+      "fecha": "2026-06-24 16:05",
+      "estadio": "Estadio Valencia",
+      "jornada": 3,
+      "estado": "programado"
+    },
+    {
+      "id": 41,
+      "equipo_local_id": 5,
+      "equipo_visitante_id": 1,
+      "fecha": "2026-07-01 15:05",
+      "estadio": "Estadio Bilbao",
+      "jornada": 4,
+      "estado": "programado"
+    },
+    {
+      "id": 42,
+      "equipo_local_id": 4,
+      "equipo_visitante_id": 6,
+      "fecha": "2026-07-01 16:05",
+      "estadio": "Estadio Sevilla",
+      "jornada": 4,
+      "estado": "programado"
+    },
+    {
+      "id": 43,
+      "equipo_local_id": 3,
+      "equipo_visitante_id": 7,
+      "fecha": "2026-07-01 17:05",
+      "estadio": "Estadio Valencia",
+      "jornada": 4,
+      "estado": "programado"
+    },
+    {
+      "id": 44,
+      "equipo_local_id": 2,
+      "equipo_visitante_id": 8,
+      "fecha": "2026-07-01 18:05",
+      "estadio": "Estadio Barcelona",
+      "jornada": 4,
+      "estado": "programado"
+    },
+    {
+      "id": 45,
+      "equipo_local_id": 4,
+      "equipo_visitante_id": 1,
+      "fecha": "2026-07-08 17:05",
+      "estadio": "Estadio Sevilla",
+      "jornada": 5,
+      "estado": "programado"
+    },
+    {
+      "id": 46,
+      "equipo_local_id": 3,
+      "equipo_visitante_id": 5,
+      "fecha": "2026-07-08 18:05",
+      "estadio": "Estadio Valencia",
+      "jornada": 5,
+      "estado": "programado"
+    },
+    {
+      "id": 47,
+      "equipo_local_id": 2,
+      "equipo_visitante_id": 6,
+      "fecha": "2026-07-07 19:05",
+      "estadio": "Estadio Barcelona",
+      "jornada": 5,
+      "estado": "programado"
+    },
+    {
+      "id": 48,
+      "equipo_local_id": 8,
+      "equipo_visitante_id": 7,
+      "fecha": "2026-07-07 20:05",
+      "estadio": "Estadio Murcia",
+      "jornada": 5,
+      "estado": "programado"
+    },
+    {
+      "id": 49,
+      "equipo_local_id": 3,
+      "equipo_visitante_id": 1,
+      "fecha": "2026-07-14 19:05",
+      "estadio": "Estadio Valencia",
+      "jornada": 6,
+      "estado": "programado"
+    },
+    {
+      "id": 50,
+      "equipo_local_id": 2,
+      "equipo_visitante_id": 4,
+      "fecha": "2026-07-14 20:05",
+      "estadio": "Estadio Barcelona",
+      "jornada": 6,
+      "estado": "programado"
+    },
+    {
+      "id": 51,
+      "equipo_local_id": 8,
+      "equipo_visitante_id": 5,
+      "fecha": "2026-07-14 21:05",
+      "estadio": "Estadio Murcia",
+      "jornada": 6,
+      "estado": "programado"
+    },
+    {
+      "id": 52,
+      "equipo_local_id": 7,
+      "equipo_visitante_id": 6,
+      "fecha": "2026-07-14 22:05",
+      "estadio": "Estadio Málaga",
+      "jornada": 6,
+      "estado": "programado"
+    },
+    {
+      "id": 53,
+      "equipo_local_id": 2,
+      "equipo_visitante_id": 1,
+      "fecha": "2026-07-21 21:05",
+      "estadio": "Estadio Barcelona",
+      "jornada": 7,
+      "estado": "programado"
+    },
+    {
+      "id": 54,
+      "equipo_local_id": 8,
+      "equipo_visitante_id": 3,
+      "fecha": "2026-07-21 22:05",
+      "estadio": "Estadio Murcia",
+      "jornada": 7,
+      "estado": "programado"
+    },
+    {
+      "id": 55,
+      "equipo_local_id": 7,
+      "equipo_visitante_id": 4,
+      "fecha": "2026-07-21 23:05",
+      "estadio": "Estadio Málaga",
+      "jornada": 7,
+      "estado": "programado"
+    },
+    {
+      "id": 56,
+      "equipo_local_id": 6,
+      "equipo_visitante_id": 5,
+      "fecha": "2026-07-22 00:05",
+      "estadio": "Estadio Zaragoza",
+      "jornada": 7,
+      "estado": "programado"
+    }
+  ],
+  "resumen": {
+    "total_equipos": 8,
+    "total_jugadores": 88,
+    "total_partidos": 56,
+    "errores": 0
+  }
+}
